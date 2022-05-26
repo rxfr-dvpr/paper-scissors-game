@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper and Scissors Game</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+    <section class="game">
+        <div class="score-board">
+            <div class="player-box">
+                <h2 class="players-name">Player</h2>
+                <p class="player-score">0</p>
+            </div>
+
+            <div class="computer-box">
+                <h2 class="computer-name">Computer</h2>
+                <p class="computer-score">0</p>
+            </div>
+        </div>
+
+        <div class="intro">
+            <h1>Quduq Qogoz va Qaychi O'yini</h1>
+            <button>O'yinni Boshlash</button>
+        </div>
+
+        <div class="match fadeOut">
+            <h2 class="winner">Parametrni Tanlang</h2>
+
+            <div class="hands">
+                <img src="./assets/img/quduq.png" alt="" class="player-hand hand-img">
+                <img src="./assets/img/quduq.png" alt="" class="computer-hand hand-img">
+            </div>
+
+            <div class="options">
+                <button class="rock">quduq</button>
+                <button class="paper">qogoz</button>
+                <button class="scissors">qaychi</button>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
